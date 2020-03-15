@@ -9,9 +9,12 @@
     "server": "live-server --quiet ./public"
   },
   "dependencies": {
-    "preact": "^10.3.4"
+    "react": "npm:@pika/react@^16.13.1",
+    "react-dom": "npm:@pika/react-dom@^16.13.1"
   },
   "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
     "live-server": "^1.2.1",
     "snowpack": "^1.6.0",
     "typescript": "^3.8.3"

@@ -1,5 +1,6 @@
-import * as preact from "/web_modules/preact.js";
+import * as React from "/web_modules/react.js";
+import * as ReactDOM from "/web_modules/react-dom.js";
 
 import("./App.js").then(({ default: App }) => {
-  preact.render(<App />, document.getElementById("root")!);
+  ReactDOM.render(<App />, document.getElementById("root")!);
 });
