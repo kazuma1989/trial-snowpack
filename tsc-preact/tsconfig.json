@@ -9,17 +9,14 @@
     // Required for Preact type checks.
     "moduleResolution": "Node",
 
-    // <div /> => React.createElement("div")
+    // <div /> => preact.h("div")
     "jsx": "react",
+    "jsxFactory": "preact.h",
 
     // Required: Map "/web_modules/*" imports back to their node_modules/ TS definition files.
     "baseUrl": ".",
     "paths": {
-      "/web_modules/*.js": [
-        "src/typings/*",
-        "node_modules/@types/*",
-        "node_modules/*"
-      ]
+      "/web_modules/*.js": ["node_modules/@types/*", "node_modules/*"]
     },
 
     // Redirect output structure to a directory.

@@ -1,7 +1,10 @@
+import * as preact from "/web_modules/preact.js";
+import Title from "./Title.js";
+
 export default function App() {
   return (
     <div>
-      <h1>tsc + Preact</h1>
+      <Title label="tsc + Preact" />
     </div>
   );
 }
