@@ -9,11 +9,11 @@
     "server": "live-server --quiet ./public"
   },
   "dependencies": {
-    "preact": "^10.3.2"
+    "preact": "^10.3.4"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
-    "snowpack": "^1.5.1",
+    "snowpack": "^1.6.0",
     "typescript": "^3.8.3"
   }
 }
