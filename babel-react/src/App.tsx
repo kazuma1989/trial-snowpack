@@ -4,7 +4,7 @@ import Title from "./Title.js";
 export default function App() {
   return (
     <div>
-      <Title label="tsc + React" />
+      <Title label="Babel + React" />
     </div>
   );
 }
