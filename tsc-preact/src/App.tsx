@@ -1,10 +1,14 @@
 import * as preact from "/web_modules/preact.js";
+import { useState } from "/web_modules/preact/hooks.js";
 import Title from "./Title.js";
 
 export default function App() {
+  const [active, setActive] = useState(false);
+  const toggle = () => setActive(v => !v);
+
   return (
-    <div>
-      <Title label="tsc + Preact" />
+    <div onClick={toggle}>
+      <Title label="tsc + Preact" active={active} />
     </div>
   );
 }
