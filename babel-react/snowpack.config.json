@@ -1,0 +1,3 @@
+{
+  "webDependencies": ["preact", "preact/hooks"]
+}
