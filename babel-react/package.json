@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "snowpack --optimize --clean --dest ./public/web_modules/",
-    "compile": "babel ./src --extensions '.ts,.tsx' --out-dir ./public/dist",
+    "compile": "babel ./src --extensions '.ts,.tsx' --source-maps --out-dir ./public/dist",
     "server": "live-server --quiet ./public"
   },
   "dependencies": {
