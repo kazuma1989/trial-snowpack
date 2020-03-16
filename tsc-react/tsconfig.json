@@ -18,8 +18,13 @@
       "/web_modules/*.js": ["node_modules/@types/*", "node_modules/*"]
     },
 
-    // Only for type checks.
-    "noEmit": true,
+    // Redirect output structure to a directory.
+    // The directory is defined in the package.json#scripts.
+    "noEmit": false,
+
+    // Generate source maps including their original sources.
+    "sourceMap": true,
+    "inlineSources": true,
 
     // Useful type checks.
     "strictNullChecks": true
