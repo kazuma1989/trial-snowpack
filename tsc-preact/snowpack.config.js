@@ -6,12 +6,9 @@ module.exports = {
   rollup: {
     plugins: [
       alias({
-        entries: [
-          {
-            find: "react",
-            replacement: `${__dirname}/node_modules/preact/compat`
-          }
-        ]
+        entries: {
+          react: "preact/compat"
+        }
       })
     ]
   }
