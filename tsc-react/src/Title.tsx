@@ -1,4 +1,4 @@
-import * as React from "/web_modules/react.js";
+import React from "/web_modules/react.js";
 
 export default function Title({
   label,

@@ -1,8 +1,8 @@
-import * as React from "/web_modules/react.js";
+import React, { useState } from "/web_modules/react.js";
 import Title from "./Title.js";
 
 export default function App() {
-  const [active, setActive] = React.useState(false);
+  const [active, setActive] = useState(false);
   const toggle = () => setActive(v => !v);
 
   return (

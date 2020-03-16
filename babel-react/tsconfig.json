@@ -9,6 +9,9 @@
     // Required for Preact type checks.
     "moduleResolution": "Node",
 
+    // `import React` instead of `import * as React`
+    "allowSyntheticDefaultImports": true,
+
     // <div /> => React.createElement("div")
     "jsx": "react",
 
