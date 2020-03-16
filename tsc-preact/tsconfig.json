@@ -9,9 +9,12 @@
     // Required for Preact type checks.
     "moduleResolution": "Node",
 
-    // <div /> => preact.h("div")
+    // `import preact` instead of `import * as preact`
+    "allowSyntheticDefaultImports": true,
+
+    // <div /> => preact.createElement("div")
     "jsx": "react",
-    "jsxFactory": "preact.h",
+    "jsxFactory": "preact.createElement",
 
     // Required: Map "/web_modules/*" imports back to their node_modules/ TS definition files.
     "baseUrl": ".",

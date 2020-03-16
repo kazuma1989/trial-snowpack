@@ -1,4 +1,4 @@
-import * as preact from "/web_modules/preact.js";
+import preact from "/web_modules/preact/compat.js";
 
 export default function Title({
   label,

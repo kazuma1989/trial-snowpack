@@ -1,4 +1,4 @@
-import * as preact from "/web_modules/preact.js";
+import preact from "/web_modules/preact/compat.js";
 import { useState } from "/web_modules/preact/hooks.js";
 import Title from "./Title.js";
 
