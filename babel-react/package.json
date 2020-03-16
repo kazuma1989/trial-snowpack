@@ -1,11 +1,12 @@
 {
-  "name": "babel-preact",
+  "name": "babel-react",
   "version": "0.0.1",
   "author": "kazuma1989 <kazuma.ebina@quipper.com>",
   "license": "MIT",
   "scripts": {
     "prepare": "snowpack --optimize --clean --dest ./public/web_modules/",
     "compile": "babel ./src --extensions '.ts,.tsx' --source-maps --out-dir ./public/dist",
+    "test": "tsc",
     "server": "live-server --quiet ./public"
   },
   "dependencies": {
