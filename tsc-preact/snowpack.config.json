@@ -1,3 +1,0 @@
-{
-  "webDependencies": ["preact", "preact/compat", "preact/hooks"]
-}

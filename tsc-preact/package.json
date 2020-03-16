@@ -12,6 +12,7 @@
     "preact": "^10.3.4"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.0.1",
     "live-server": "^1.2.1",
     "snowpack": "^1.6.0",
     "typescript": "^3.8.3"
