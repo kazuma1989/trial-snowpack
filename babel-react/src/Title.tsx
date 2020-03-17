@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 export default function Title({
   label,
-  active
+  active,
 }: {
-  label?: string;
-  active?: boolean;
+  label?: string
+  active?: boolean
 }) {
-  return <h1 style={{ color: active ? "red" : "initial" }}>{label}</h1>;
+  return <h1 style={{ color: active ? 'red' : 'initial' }}>{label}</h1>
 }

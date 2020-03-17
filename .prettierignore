@@ -1,0 +1,12 @@
+*.sh
+*.ico
+*.snap
+*.woff2
+*.config
+
+._*
+.gitignore
+.prettierignore
+package-lock.json
+*/public/dist
+*/public/web_modules

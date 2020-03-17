@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import("./App").then(({ default: App }) => {
-  ReactDOM.render(<App />, document.getElementById("root")!);
-});
+import('./App').then(({ default: App }) => {
+  ReactDOM.render(<App />, document.getElementById('root')!)
+})
