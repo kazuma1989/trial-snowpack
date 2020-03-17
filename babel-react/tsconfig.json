@@ -15,12 +15,6 @@
     // <div /> => React.createElement("div")
     "jsx": "react",
 
-    // Required: Map "/web_modules/*" imports back to their node_modules/ TS definition files.
-    "baseUrl": ".",
-    "paths": {
-      "/web_modules/*.js": ["node_modules/@types/*", "node_modules/*"]
-    },
-
     // Only for type checks.
     "noEmit": true,
 
